@@ -77,8 +77,8 @@ def change_direction(e): # e = event
     elif (e.keysym == "Right" and velocityX != -1):
         velocityX = 1
         velocityY = 0
-    # elif (e.keysym == "Space" and game_over == True and e.keysym == True):
-
+    # elif (e.keysym == "Space" and game_over == True):
+    
 
 def move():
     global snake, food, bomb, snake_body, game_over, score
