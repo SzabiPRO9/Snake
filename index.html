@@ -248,7 +248,7 @@
       <div class="overlay" id="overlay">
         <div class="overlay-content">
           <h2 id="overlay-title">Ready?</h2>
-          <p id="overlay-message">Use the arrow keys or WASD to move. Fruit adds a point; the bomb takes away a segment.</p>
+          <p id="overlay-message">Use the arrow keys to move. Fruit adds a point; the bomb takes away a segment.</p>
           <button class="action" id="start-button" type="button">Start game</button>
         </div>
       </div>
@@ -492,10 +492,10 @@
       startButton.addEventListener("click", () => startGame());
       document.addEventListener("keydown", event => {
         const keys = {
-          ArrowUp: "up", w: "up", W: "up",
-          ArrowDown: "down", s: "down", S: "down",
-          ArrowLeft: "left", a: "left", A: "left",
-          ArrowRight: "right", d: "right", D: "right"
+          ArrowUp: "up",
+          ArrowDown: "down",
+          ArrowLeft: "left",
+          ArrowRight: "right",
         };
         const name = keys[event.key];
         if (name) {
