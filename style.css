@@ -1,9 +1,54 @@
 img {
     width: 200px;
 }
+
 body {
+    color-scheme: dark;
+    text-align: left;
+    font-family: "Trebuchet MS", "Segoe UI", "sans-serif";
+    background: rgb(2, 66, 66);
+    color: rgb(144, 182, 192);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
     text-align: center;
-    font-family: Arial;
-    background: azure;
-    color: purple;
+    text-decoration: none;
+    background: rgba(132, 232, 235, 0.582);
+    color: aliceblue;
+    opacity: 0.8;
+    filter: brightness(150%);
+    border: none;
+    border-radius: 8%;
+    font: inherit;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+header {
+    background: rgba(132, 232, 235, 0.582);
+    color: aliceblue;
+    padding: 20px;
+    opacity: 0.8
+}
+
+section {
+    background: rgba(3, 32, 110, 0.788);
+    color: aliceblue;
+    padding: 20px;
+    opacity: 0.8
+}
+
+footer {
+    background-color: rgb(132, 232, 235, 0.582);
+    color: aliceblue;
+    padding: 10px 20px;
+    opacity: 0.8
+}
+
+h1 {
+    margin: 20px;
 }
